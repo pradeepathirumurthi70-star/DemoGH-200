@@ -20,9 +20,9 @@ jobs:
       #multiple commands
       - name: Multi-line bash
         run: |
-          echo: "I am"
-          echo: "Multi Line"
-          echo: "Script"
+          echo "I am"
+          echo "Multi Line"
+          echo "Script"
   
   
 
