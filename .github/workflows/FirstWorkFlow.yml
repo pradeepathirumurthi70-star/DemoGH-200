@@ -13,6 +13,7 @@ jobs:
         run: echo "Hello World"
   #Second Job
   echo-goodbye:
+    needs: Hello-World
     runs-on: ubuntu-slim
     steps:
       - name: say Goodbye
